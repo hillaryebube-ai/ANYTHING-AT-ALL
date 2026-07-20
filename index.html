@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Portfolio - Premium Vehicles Showcase</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">🏎️ CAR PORTFOLIO</div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#portfolio">Gallery</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Premium Car Showcase</h1>
+            <p>Explore our collection of the finest vehicles from around the world</p>
+            <button class="cta-button" onclick="document.getElementById('portfolio').scrollIntoView({behavior: 'smooth'})">View Gallery</button>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Our Collection</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" onclick="filterCars('all')">All</button>
+                <button class="filter-btn" onclick="filterCars('Sedan')">Sedans</button>
+                <button class="filter-btn" onclick="filterCars('SUV')">SUVs</button>
+                <button class="filter-btn" onclick="filterCars('Sports')">Sports</button>
+                <button class="filter-btn" onclick="filterCars('Truck')">Trucks</button>
+            </div>
+            <div id="cars-container" class="cars-grid">
+                <!-- Cars will be loaded here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Our Portfolio</h2>
+            <p>We showcase the finest selection of vehicles, from eco-friendly electric cars to high-performance sports cars. Each vehicle in our collection represents excellence in engineering, design, and innovation.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <form id="contactForm">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Car Portfolio. All rights reserved. | Built with passion for automobiles.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "name": "Tesla Model 3",
+      "brand": "Tesla",
+      "year": 2024,
+      "category": "Electric Sedan",
+      "price": "$43,990",
+      "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200'%3E%3Crect fill='%23333' width='300' height='200'/%3E%3Ctext x='150' y='100' font-size='24' fill='white' text-anchor='middle' dy='.3em'%3ETesla Model 3%3C/text%3E%3C/svg%3E",
+      "specs": {
+        "acceleration": "0-60 mph: 5.1s",
+        "range": "272 miles",
+        "topSpeed": "125 mph",
+        "battery": "50 kWh"
+      },
+      "description": "The best-selling electric sedan with cutting-edge autopilot technology and exceptional range."
+    },
+    {
+      "id": 2,
+      "name": "Porsche 911",
+      "brand": "Porsche",
+      "year": 2024,
+      "category": "Sports Car",
+      "price": "$99,290",
+      "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200'%3E%3Crect fill='%23f00' width='300' height='200'/%3E%3Ctext x='150' y='100' font-size='24' fill='white' text-anchor='middle' dy='.3em'%3EPorsche 911%3C/text%3E%3C/svg%3E",
+      "specs": {
+        "acceleration": "0-60 mph: 2.7s",
+        "topSpeed": "195 mph",
+        "engine": "3.0L Turbo",
+        "horsepower": "379 hp"
+      },
+      "description": "A legendary sports car combining performance, precision, and timeless design."
+    },
+    {
+      "id": 3,
+      "name": "Toyota Camry",
+      "brand": "Toyota",
+      "year": 2024,
+      "category": "Sedan",
+      "price": "$33,355",
+      "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200'%3E%3Crect fill='%23006bb3' width='300' height='200'/%3E%3Ctext x='150' y='100' font-size='24' fill='white' text-anchor='middle' dy='.3em'%3EToyota Camry%3C/text%3E%3C/svg%3E",
+      "specs": {
+        "acceleration": "0-60 mph: 7.3s",
+        "fuelEconomy": "28-32 mpg",
+        "engine": "2.5L 4-cylinder",
+        "horsepower": "203 hp"
+      },
+      "description": "America's best-selling sedan known for reliability, comfort, and fuel efficiency."
+    },
+    {
+      "id": 4,
+      "name": "BMW X5",
+      "brand": "BMW",
+      "year": 2024,
+      "category": "Luxury SUV",
+      "price": "$60,450",
+      "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200'%3E%3Crect fill='%23000' width='300' height='200'/%3E%3Ctext x='150' y='100' font-size='24' fill='white' text-anchor='middle' dy='.3em'%3EBMW X5%3C/text%3E%3C/svg%3E",
+      "specs": {
+        "acceleration": "0-60 mph: 4.6s",
+        "engine": "3.0L Twin-Turbo",
+        "horsepower": "335 hp",
+        "seating": "7 passengers"
+      },
+      "description": "A premium SUV delivering luxury, performance, and advanced technology."
+    },
+    {
+      "id": 5,
+      "name": "Ford F-150",
+      "brand": "Ford",
+      "year": 2024,
+      "category": "Pickup Truck",
+      "price": "$28,410",
+      "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200'%3E%3Crect fill='%23003478' width='300' height='200'/%3E%3Ctext x='150' y='100' font-size='24' fill='white' text-anchor='middle' dy='.3em'%3EFord F-150%3C/text%3E%3C/svg%3E",
+      "specs": {
+        "acceleration": "0-60 mph: 5.8s",
+        "engine": "3.5L EcoBoost",
+        "horsepower": "375 hp",
+        "towCapacity": "14,000 lbs"
+      },
+      "description": "The world's best-selling truck, delivering power, reliability, and capability."
+    }
+  ]
+}
